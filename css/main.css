@@ -1,0 +1,159 @@
+/***** Basestyles *****/
+
+body {
+    background-color: black;
+    color: floralwhite;
+    font-family: 'Dosis', sans-serif;
+}
+
+#work {
+    height: 1000px;
+}
+
+#about {
+    height: 600px;
+}
+
+#contact {
+    height: 400px;
+}
+
+/***** Grid *****/
+
+.full-width {
+    width: 1200px;
+}
+
+.half-width {
+    float: left;
+    width: 600px;
+}
+
+.third-width {
+    float: left;
+    padding: 0 0 50px 0;
+    text-align: center;
+    width: 400px;
+}
+
+/***** Header *****/
+
+header {
+    background: url('../img/background-paint.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1400px 700px;
+    height: 800px;
+}
+
+header h1 {
+    font-size: 25px;
+}
+
+nav {
+    float: right; 
+}
+
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    color: white;
+    font-size: 25px;
+    padding-left: 80px; 
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+header h2 {
+        clear: both;
+        font-family: 'Russo One', sans-serif;
+        font-size: 72px;
+        line-height: 80px;
+        padding: 300px 0 20px 25px;
+        text-align: left;
+        width: 1000px;
+    }
+    header h2 span {
+        color: gold;
+    }
+
+    /***** Work *****/
+
+    #work {
+        overflow: auto;
+    }
+    
+    #work h2 {
+        color: gold;
+        font-family: 'Russo One', sans-serif;
+        text-align: center;
+    }
+
+    .column-one {
+        float: left;
+        width: 600px;
+    }
+
+    .column-two {
+        float: left;
+        width: 600px;
+    }
+
+    .project-one {
+        padding: 0px 40px 150px 15px;
+    }
+
+    .image-one {
+        padding: 0 0 0 60px;
+    }
+
+    .project-two {
+        padding: 20px 40px 125px 60px;
+    }
+
+    .image-three {
+        padding: 0 0 0 140px;
+    }
+
+    .project-three {
+        padding: 20px 40px 125px 0;
+    }
+
+    /***** About *****/
+
+    #about h2 {
+        color: gold;
+        font-family: 'Russo One', sans-serif;
+        text-align: center;
+    }
+
+    .about-me {
+        padding: 0 0 0 60px;
+    }
+
+    #about h3 {
+        text-align: center;
+    }
+
+    #about ul {
+        text-align: center;
+        text-decoration: none;
+        list-style-type: none;
+    }
+
+    .about-img {
+        padding: 0 0 0 250px;
+    }
+
+    /*****Connect*****/
+
+    #contact h2 {
+        color: gold;
+        font-family: 'Russo One', sans-serif;
+        text-align: center;
+    }
+
+    .copyright {
+        text-align: center;
+    }
