@@ -22,6 +22,7 @@ body {
 
 .full-width {
     width: 1200px;
+    margin: 0 auto;
 }
 
 .half-width {
@@ -39,7 +40,7 @@ body {
 /***** Header *****/
 
 header {
-    background: url('../img/background-paint.png');
+    background: url('../img/background-paints.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 1400px 700px;
@@ -133,17 +134,23 @@ header h2 {
     }
 
     #about h3 {
-        text-align: center;
+        color: gold;
+        font-family: 'Russo One', sans-serif;
+        text-align: left;
     }
 
     #about ul {
-        text-align: center;
+        text-align: left;
         text-decoration: none;
         list-style-type: none;
     }
 
     .about-img {
-        padding: 0 0 0 250px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+
     }
 
     /*****Connect*****/
